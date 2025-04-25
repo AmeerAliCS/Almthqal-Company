@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="شركة المثقال تقدم أفضل المجوهرات والذهب بأعلى جودة. تفضلوا بزيارتنا في كركوك - شارع اطلس - السوق العصري.">    <meta name="keywords" content="الذهب, المجوهرات, سبائك الذهب, كركوك, شركة المثقال">    <title>شركة المثقال لتجارة الذهب والمجوهرات</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #222831;
+            color: white;
+            padding: 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo {
+            width: 120px;
+            position: absolute;
+            top: 10px;
+            /* right: 10px; */
+        }
+        .title {
+            margin-top: 115px;
+        }
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            background: url('images/hero.jpg') no-repeat center center;
+            background-size: cover;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .about, .gallery, .contact {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .about:hover, .gallery:hover, .contact:hover {
+            transform: scale(1.02);
+        }
+        .gallery .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        #map {
+            width: 100%;
+            height: 300px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        .contact {
+            background-color: #222831;
+            color: white;
+            padding: 20px;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        @media (max-width: 768px) {
+            .gallery .images {
+                flex-direction: column;
+                align-items: center;
+            }
+            .gallery img {
+                width: 90%;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="شعار الشركة" class="logo">
+        <h2 class="title">شركة المثقال لتجارة الذهب والمجوهرات</h2>
+        <!-- <p>لتجارة الذهب والمجوهرات</p> -->
+    </header>
+    
+    <div class="hero-image"></div>
+    
+    <section class="about">
+        <p>بدأت الشركة نشاطها في صناعة المجوهرات والمصوغات الذهبية. وبفضل جودة منتجاتها وخدماتها المميزة، استطاعت الشركة تحقيق نجاح كبير في سوق المجوهرات المحلي، والتي اكتسبت شعبية بين العملاء المحليين بسبب الاحترافية والتصاميم الفريدة</p>
+    </section>
+    
+    <section class="gallery">
+        <h2>منتجاتنا</h2>
+        <div class="images">
+            <img src="images/1.jpg" alt="خواتم">
+            <img src="images/2.jpg" alt="اساور">
+            <img src="images/3.jpg" alt="قلائد">
+            <img src="images/4.jpg" alt="سبائك">
+            <img src="images/5.jpg" alt="حلق">
+            <img src="images/6.jpg" alt="طقم">
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>تواصل معنا</h2>
+        <p>العنوان: كركوك - شارع اطلس - السوق العصري</p>
+        <p>رقم الهاتف: 07701055100</p>
+        <p>info@almthqal.com :البريد الالكتروني</p>
+        <!-- <div id="map"></div> -->
+    </section>
+    
+    
+</body>
+</html>
